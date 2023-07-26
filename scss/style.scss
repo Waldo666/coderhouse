@@ -114,10 +114,11 @@ padding: 0px;
  border-radius: 40px;
  border-color: #004e63;
  margin: 33px;
-}
-.img1 img:hover{
+
+&:hover{
    transform: scale(1.2);
    transition:2s;
+}
 }
 .imgx{
 
@@ -257,7 +258,7 @@ padding: 0px;
       
       
          .hidemenu{
-            display:none ;
+            display:contents ;
          }
          .logoh{
             display:none;

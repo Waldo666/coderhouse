@@ -122,7 +122,6 @@ footer {
   border-color: #004e63;
   margin: 33px;
 }
-
 .img1 img:hover {
   transform: scale(1.2);
   transition: 2s;
@@ -277,7 +276,7 @@ footer {
 
 @media (max-width: 576px) {
   .hidemenu {
-    display: none;
+    display: contents;
   }
   .logoh {
     display: none;
