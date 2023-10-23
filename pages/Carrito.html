@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>W3D</title>
+    <link rel="shortcut icon" href="./multimedia/img/icono.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+<header>
+    <div class="logo">
+    <img class="logoh" src="../multimedia/img/logo.png" alt="Logo">
+    <h2 class="nombre-empresa">W3D</h2>
+    </div>
+    <nav class="hidemenu">
+            <a href="../index.html">Inicio</a></li>
+            <a href="../pages/Carrito.html">Carrito</a></li>
+            <a href="../pages/nosotros.html">Nosotros</a></li>
+            <a href="../pages/galeria.html">Galeria</a></li>
+            <a href="../pages/contacto.html">Contacto</a></li>            
+    </nav>
+</header>
+<div class="portada">
+    <h1>Tienda en línea</h1>
+    <h2 class="subp">Aquí podrás comprar algunos de nuestros trabajos!</h2>
+    </div>
+    <h1></h1>
+
+    <div id="product-container">
+    </div>
+
+    <div id="carrito">
+        <p class="carritoDeCompras">Carrito de compras
+        <img class="logoh" src="../multimedia/img/carrito.png" alt="Logo" width="60"></p>
+        <ul id="carrito-lista">
+        </ul>
+        <label class="carritoDeCompras" for="payment-method">Método de pago:</label>
+        <select id="payment-method">
+            <option value="contado">Contado</option>
+            <option value="tarjeta">Tarjeta de crédito</option>
+        </select>
+        <div id="cuotas" style="display: none;">
+            <label for="cuotas-select">Número de cuotas:</label>
+            <select id="cuotas-select">
+                <option value="1">1 cuota</option>
+                <option value="2">2 cuotas</option>
+                <option value="3">3 cuotas (10% de recargo)</option>
+            </select>
+        </div>
+        <button onclick="comprar()">Comprar</button>
+    </div>
+    <footer>
+        <div class="logo">
+        <img src="../multimedia/img/logo.png" alt="Logo">
+                   </div>
+        <nav>
+                <a href="../index.html">Inicio</a></li>
+                <a href="../pages/nosotros.html">Nosotros</a></li>
+                <a href="../pages/galeria.html">Galeria</a></li>
+                <a href="../pages/contacto.html">Contacto</a></li>  
+                <a href="https://app.moqups.com/Ak8SyzJz61nfz6je2f85wfpaLZtpFMHS/view/page/af623ee02">"moqups"</a></li>          
+        </nav>
+</footer>
+    <script src="../JS/script.js"></script>
+</body>
+</html>
